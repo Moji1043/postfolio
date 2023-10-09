@@ -1,0 +1,217 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(202, 193, 235);
+    background-size: cover;
+    z-index: -1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.slogan {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.social-img ul{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.social-img ul li{
+    display: inline;
+    background: rgba(204, 204, 204, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 150ms ease-in-out;
+}
+
+.social-img ul li:hover{
+    background: #ccc;
+}
+
+.fa {
+    font-size: 24px;
+}
+
+.bio {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hobby {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hobby h5 {
+    font-size: 24px;
+}
+
+.hobby li {
+    list-style: none;
+    margin-top: 40px;
+}
+
+.hobby img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.skill {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skill h5 {
+    font-size: 18px;
+}
+
+.skill img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.interesting {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.interesting h5 {
+    font-size: 18px;
+}
+
+.interesting li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.Mypic {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Mypic h5 {
+    font-size: 18px;
+}
+#car {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+hr{
+    width: auto;
+    height: 2px;
+    background-color: #219921;
+    margin-top: 10px;
+}
+
+.seach {
+    gap: 60px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.me {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 18px;
+}
+
+legend{
+    text-align: center;
+}
+
+.Mypicpj {
+    text-align: center;
+    margin-top: 20px;
+}
+.Mypicpj h5 {
+    font-size: 18px;
+}
+#pj {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#my-project{
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px){
+    .me {
+        gap: 20px;
+        padding: 10px;
+        max-width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+} 
+
+ @media only screen and (min-width: 767px){
+    .me {
+        gap: 40px;
+        padding: 10px;
+        max-width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
